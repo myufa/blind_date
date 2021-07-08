@@ -1,0 +1,37 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+uvicorn = "*"
+fastapi = "*"
+pydantic = "*"
+numpy = "*"
+matplotlib = "*"
+pandas = "*"
+uvloop = "*"
+gunicorn = "*"
+bcrypt = "*"
+scipy = "*"
+typer = "*"
+fastapi-utils = "*"
+httptools = "*"
+dnspython = "*"
+google-cloud-secret-manager = "*"
+oauth2client = "*"
+google-auth = "*"
+aiounittest = "*"
+httpx = "*"
+passlib = {extras = ["bcrypt"], version = "*"}
+pymongo = "*"
+python-multipart = "*"
+aiofiles = "*"
+python-jose = "*"
+gcloud = "*"
+google-cloud-storage = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"

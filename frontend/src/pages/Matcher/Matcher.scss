@@ -1,0 +1,239 @@
+@import '../../styles/global.scss';
+
+span {
+  font-size: 17px;
+  font-family: 'Lucida Grande';
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.header-font {
+  color: #4A90E2;
+  font-family: "din-condensed";
+  font-size: 45px;
+  margin-top: 0px;
+  padding-top: 22px;
+  position: fixed;
+  top: 0;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+}
+
+.tiles {
+  width: 170px;
+  height: 163px;
+  background-color: #DAE8F9;
+  color: #21456E;
+  outline-color: transparent;
+  border-radius: 10px;
+  border: transparent;
+  font-family: 'Lucida Grande';
+  font-size: 14px;
+  text-align: center;
+  align-items: center;
+  margin-top: 1px;
+  margin-bottom: 20px;
+  z-index: 2;
+
+  &#pressed {
+    background-color: #4A90E2;
+  }
+}
+
+.bio-text {
+  height: 1.5em;
+  overflow-y: hidden;
+  text-align: center;
+  margin-top: 0px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 0px;
+}
+
+
+.tileImg {
+  width: auto;
+  height: 85px;
+  overflow: hidden;
+  margin-bottom: 0px;
+  max-width: 150px;
+}
+
+.container {
+  columns: 2 auto;
+}
+
+.tile-learn-more {
+  padding: 3px;
+  border-width: 1px;
+  border-color: #21456e;
+  border-radius: 6px;
+  border-style: solid;
+  width: max-content;
+  z-index: 1;
+  background-color: transparent;
+  margin-left: 37px;
+}
+
+#page {
+  margin-left: 12px;
+  margin-right: 12px;
+  align-items: center;
+  text-align: center;
+}
+
+.checks {
+  text-align: center;
+  align-items: center;
+  margin-bottom: 1px;
+}
+
+.is-disabled {
+  opacity: .5;
+  pointer-events: none;
+}
+
+@keyframes anvil {
+  0% {
+    transform: scale(1) translateY(0px);
+    opacity: 0;
+    box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+  }
+  1% {
+    transform: scale(0.96) translateY(10px);
+    opacity: 0;
+    box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+  }
+  100% {
+    transform: scale(1) translateY(0px);
+    opacity: 1;
+    box-shadow: 0 0 500px rgba(241, 241, 241, 0);
+  }
+}
+
+#pop {
+  background-color: #DAE8F9;
+  width: 270px;
+  max-height: 550px;
+  max-width: 250px;
+  border-color: #4A90E2;
+  border-width: 1.5px;
+  border-radius: 8px;
+  border-style: solid;
+  padding: 10px;
+  text-align: center;
+  -webkit-animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
+  overflow: scroll;
+  scroll-margin-top: 0px;
+}
+
+.pop-name {
+  font-size: 25px;
+  color: #4A90E2;
+  margin-bottom: 1px;
+  font-style: "Lucida Grande";
+  position: sticky;
+}
+
+.pop-img {
+  // width: auto;
+  height: 155px;
+  text-align: center;
+  align-items: center;
+}
+
+.pop-close {
+  width: auto;
+  font-size: 13px;
+  margin-left: 3px;
+  text-transform: uppercase;
+  color: #DAE8F9;
+  background-color: #4A90E2;
+  font-family: "Lucida Grande";
+  outline-color: #4A90E2;
+  border-radius: 6px;
+  padding: 3px;
+}
+
+.pop-bio {
+  font-style: "Lucida Grande";
+  color: #21456E;
+  margin-top: 1px;
+  margin-bottom: 30px;
+}
+
+.pop-prompt-emph {
+  font-style: bold;
+  color: #4A90E2;
+}
+
+.pop-prompt {
+  font-style: "Lucida Grande";
+  color: #21456E;
+}
+
+.icon {
+  width: 56px;
+  height: auto;
+  margin-left: 14px;
+  margin-right: 14px;
+  margin-bottom: 0px;
+}
+
+.icon-text-mymatches {
+  margin-left: 12px;
+  margin-right: 34px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: #21456E;
+  font-family: 'Lucida Grande';
+  font-size: 14px;
+}
+
+.icon-text-feed {
+  margin-left: 14px;
+  margin-right: 34px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: #21456E;
+  font-family: 'Lucida Grande';
+  font-size: 14px;
+}
+
+.icon-text-profile {
+  margin-left: 34px;
+  margin-right: 34px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: #21456E;
+  font-family: 'Lucida Grande';
+  font-size: 14px;
+}
+
+#page:target, #page:target + #pop{
+  display:block;
+}
+
+.submit-buttons {
+  border-radius: 16px;
+  border-color: #4A90E2;
+  text-emphasis-color: #4a90e2;
+  color: #DAE8F9;
+  border-block-width: 0px;
+  margin-top: 15px;
+  font-size: 16px;
+  background-color: #4A90E2;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: 0px 2px 4px #4a90dd;
+  width: 40%;
+  height: auto;
+  outline-color: #4a90e2;
+  transition-duration: 0.4s;
+  margin-left: 10px;
+  margin-right: 10px;
+}

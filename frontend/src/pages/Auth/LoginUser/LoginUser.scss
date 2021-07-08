@@ -1,0 +1,29 @@
+@import '../../../styles/global.scss';
+@import '../../../styles/BDFormStyles/BDFormStyles.scss';
+
+.login {
+  text-align: center;
+}
+
+.logo-font {
+  color: #4A90E2;
+  font-family: "din-condensed";
+  font-size: 45px;
+}
+label {
+  font-family: 'Lucida Grande';
+  color: #21456E;
+  font-style: "bold";
+}
+
+h2 {
+  margin-bottom: 90px;
+  margin-top: 50px;
+}
+
+h3 {
+  font-family: "Lucida Grande";
+  color: #21456E;
+  margin-top: 50px;
+  font-size: 18px;
+}

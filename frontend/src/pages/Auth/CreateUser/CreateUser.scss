@@ -1,0 +1,50 @@
+@import '../../../styles/global.scss';
+@import '../../../styles/BDFormStyles/BDFormStyles.scss';
+
+.create {
+  text-align: center;
+}
+
+.create-font {
+  color: #4A90E2;
+  font-family: "din-condensed";
+  font-size: 45px;
+  margin-bottom: 90px;
+  margin-top: 50px;
+  margin-top: 0px;
+  padding-top: 22px;
+  position: fixed;
+  top: 0;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  width: 375px;
+}
+br {
+  height: 1em;
+}
+
+h3 {
+  font-family: "Lucida Grande";
+  color: #21456E;
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+textarea {
+  width: 80%;
+  height: 100px;
+  border-radius: 20px;
+}
+
+.bio-text {
+  text-align: left;
+}
+
+.success-pic {
+  font-size: 100px;
+  color: aquamarine;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}

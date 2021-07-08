@@ -1,0 +1,71 @@
+.main-nav {
+  background-color: #DAE8F9;
+  color: #21456E;
+  font-family: 'Lucida Grande';
+  font-size: 14px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 85px;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  text-transform: capitalize;
+
+  img {
+    $size: 56px;
+    width: $size;
+    height: $size;
+    display: block;
+    margin: auto;
+  }
+
+  .selected {
+    border-color: #4a90e2;
+    border-width: 1.5px;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 7px;
+    $size: 37px;
+    width: $size;
+    height: $size;
+    display: block;
+    margin: auto;
+  }
+
+  span {
+    grid-row: 2;
+    margin: auto;
+  }
+
+  .my-matches {
+    grid-column: 1;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    width: max-content;
+    margin: auto;
+  }
+
+  .feed {
+    grid-column: 2;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    width: max-content;
+    margin: auto;
+  }
+
+  .profile {
+    grid-column: 3;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    width: max-content;
+    margin: auto;
+  }
+  
+}

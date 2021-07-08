@@ -1,0 +1,9 @@
+**node_modules.*
+**dist.*
+**keyfile.*
+**venv.*
+**venv
+/vscode
+/.vscode
+.*credentials.*
+.DS_Store

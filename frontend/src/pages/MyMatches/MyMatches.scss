@@ -1,0 +1,259 @@
+@import '../../styles/global.scss';
+
+
+$iconSize: 30px;
+
+.match-contacts {
+  margin: 0 auto;
+  display: grid;
+  width: 65%;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  .sm-link {
+    grid-row: 1;
+    .ig-icon {
+      width: $iconSize;
+      height: $iconSize;
+      padding: 5px;
+    }
+    .snap-icon {
+      height: $iconSize;
+      padding: 5px;
+    }
+    .fb-icon {
+      height: 28px;
+      padding: 5px;
+    }
+    .phone-icon {
+      height: $iconSize;
+      width: $iconSize;
+      padding: 5px;
+    }
+  }
+}
+
+.mymatches-font {
+  color: #4A90E2;
+  font-family: "din-condensed";
+  font-size: 45px;
+  margin-top: 0px;
+  padding-top: 22px;
+  position: fixed;
+  top: 0;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  width: 375px;
+}
+
+.page-mymatches {
+  //margin-left: 12px;
+  //margin-right: 12px;
+  align-items: center;
+  text-align: center;
+  display: flexbox;
+}
+
+.tiles-mymatches {
+  width: 325px;
+  height: max-content;
+  background-color: #DAE8F9;
+  color: #21456E;
+  border-radius: 10px;
+  font-family: 'Lucida Grande';
+  font-size: 19px;
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+#pop {
+  background-color: #DAE8F9;
+  width: 270px;
+  height: auto;
+  border-color: #4A90E2;
+  border-width: 1.5px;
+  border-radius: 8px;
+  border-style: solid;
+  padding: 10px;
+  text-align: center;
+  -webkit-animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
+}
+
+.pop-name {
+  font-size: 25px;
+  color: #4A90E2;
+  margin-bottom: 1px;
+  font-style: "Lucida Grande";
+  position: sticky;
+}
+
+.pop-img {
+  margin: 15px;
+  width: auto;
+  max-width: 250px;
+  height: 165px;
+  text-align: center;
+  align-items: center;
+}
+
+.pop-close {
+  width: auto;
+  font-size: 13px;
+  margin-left: 3px;
+  text-transform: uppercase;
+  color: #DAE8F9;
+  background-color: #4A90E2;
+  font-family: "Lucida Grande";
+  outline-color: #4A90E2;
+  border-radius: 6px;
+  padding: 3px;
+}
+
+.pop-bio {
+  font-style: "Lucida Grande";
+  color: #21456E;
+  margin-top: 1px;
+  margin-bottom: 30px;
+}
+
+.pop-prompt-emph {
+  font-style: bold;
+  color: #4A90E2;
+}
+
+.pop-prompt {
+  font-style: "Lucida Grande";
+  color: #21456E;
+}
+
+.text-mymatches {
+  font-size: 29px;
+  font-family: 'Lucida Grande';
+  text-transform: uppercase;
+  text-align: left;
+  margin-left: 0px;
+  float: left;
+  padding-left: 2.5px;
+}
+
+.text-nummatches {
+  font-size: 15px;
+  font-family: 'Lucida Grande';
+  text-align: right;
+  margin-left: 10px;
+  margin-right: 0px;
+  float: right;
+  padding-right: 2.55px;
+}
+
+.accept-button{
+  width: 30px;
+  height: 30px;
+  background-color: mediumaquamarine;
+  border-color: white;
+  border-width: 2px;
+  border-radius: 7px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  align-items: center;
+  font-style: bold;
+  padding: 1px;
+  margin-right: 15px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.reject-button{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(255, 144, 144);
+  border-color: white;
+  border-width: 2px;
+  border-radius: 7px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  align-items: center;
+  font-style: bold;
+  padding: 1px;
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+
+.tileImg-mymatches {
+  height: 200px;
+  max-width: 300px;
+  overflow: hidden;
+  margin-bottom: 0px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  outline-color: #4A90E2;
+}
+
+.icon {
+  width: 56px;
+  height: auto;
+  margin-left: 14px;
+  margin-right: 14px;
+  margin-bottom: 0px;
+}
+
+.icon-text-mymatches {
+  margin-left: 12px;
+  margin-right: 34px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: #21456E;
+  font-family: 'Lucida Grande';
+  font-size: 14px;
+}
+
+.icon-text-feed {
+  margin-left: 14px;
+  margin-right: 34px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: #21456E;
+  font-family: 'Lucida Grande';
+  font-size: 14px;
+}
+
+.icon-text-profile {
+  margin-left: 34px;
+  margin-right: 34px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: #21456E;
+  font-family: 'Lucida Grande';
+  font-size: 14px;
+}
+
+.img-button {
+  background-color: transparent;
+  height: 200px;
+  border-color: transparent;
+  border-width: 0px;
+}
+
+.no-matches {
+  font-family: "Lucida Grande";
+  font-size: 17px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  color: #21456E;
+  margin-top: 13px;
+}

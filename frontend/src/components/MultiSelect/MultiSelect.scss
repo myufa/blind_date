@@ -1,0 +1,24 @@
+.BDMultiSelect {
+    margin-left: 12%;
+    width: 76%;
+    display: grid
+}
+
+.BDMultiOpt {
+    display: block;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    padding: 4px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border: 1px transparent;
+    border-radius: 6px;
+    width: max-content;
+    &#pressed {
+        background-color: #4a90e2;
+    }
+    &#unpressed {
+        background-color: #DAE8F9;
+    }
+}

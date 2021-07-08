@@ -1,0 +1,87 @@
+@import '../../styles/global.scss';
+
+.BD-Label {
+    font-family: 'Lucida Grande';
+    color: #21456E;
+    font-style: "bold";
+    display: block;
+}
+
+.BD-Input {
+    width: 200px;
+    height: 30px;
+    padding: 12px 20px;
+    margin: 4px 10px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    border-color: #4A90E2;
+    border-block-width: 1px;
+    box-shadow: 0px 1px 3px #4A90E2;
+    outline-color: #4a90e2;
+    color: #4A90E2;
+    font-family: 'Lucida Grande';
+}
+
+
+.BD-Button {
+    border-radius: 16px;
+    border-color: #4A90E2;
+    text-emphasis-color: #4a90e2;
+    color: #DAE8F9;
+    border-block-width: 0px;
+    margin-top: 15px;
+    font-size: 20px;
+    background-color: #4A90E2;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0px 2px 4px #4a90dd;
+    width: 50%;
+    height: auto;
+    outline-color: #4a90e2;
+    transition-duration: 0.4s;
+    input {
+        display: none;
+    }
+    
+    &.mini {
+        font-size: 14px;
+        width: 30%;
+    }
+
+    &:hover {
+        background-color: #DAE8F9; 
+        color: #4A90E2;
+        border-color: #4A90E2;
+    }
+}
+
+.BD-Textarea {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 4px 10;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    border-color: #21456e;
+    border-block-width: 1px;
+    box-shadow: #4A90E2;
+    outline-color: #4a90e2;
+    color: #4A90E2;
+    font-family: 'Lucida Grande';
+    *:focus {
+        border: none;
+        outline: none;
+    }
+}
+
+.profPicPreview {
+    $size: 50px;
+    width: $size;
+    height: $size;
+    margin: 10px;
+}
